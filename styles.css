@@ -1,0 +1,169 @@
+
+body{
+  background-color: grey;
+}
+
+nav a:hover {
+  /* background-color: black; */
+  color: lightblue !important;
+}
+
+#gibson-pic-front{
+  height: 50%;
+  width: 25%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  float:right;
+}
+
+#intro{
+  margin-left: 200px;
+  width: 35%;
+  float: left;
+  font-family: 'Fira Code', monospace;
+}
+
+#main_photo{
+  background-image: url('img/cover.jpg');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: 100%;
+  padding-bottom: 150px;
+  opacity: 85%;
+}
+
+#name_barcode{
+  text-align: center;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  font-size: 80px;
+}
+
+#title{
+  text-decoration: none;
+  color: black;
+}
+
+#navigation ul{
+  list-style: none;
+  display: inline-flex;
+  margin-left: 75px;
+}
+
+#nav-list a{
+  color: white;
+  font-size: 50px;
+  padding: 15px;
+  font-family: 'Libre Barcode 39 Text', cursive;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+  text-decoration: none;
+}
+
+
+#pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+
+#bio p{
+  font-family: 'Fira Code', monospace;
+  margin-left: 35px;
+  margin-right: auto;
+  width: 40em
+}
+
+#biopic{
+  margin-right: 200px;
+  float: right;
+  width : 250px;
+  height : 300px;
+}
+
+#block-txt2{
+  float: right;
+}
+
+blockquote {
+  font-family: 'Fira Code', monospace;
+  margin: 0;
+}
+
+blockquote p {
+  padding: 15px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+blockquote p::before {
+  content: '\201C';
+}
+
+blockquote p::after {
+  content: '\201D';
+}
+
+cite{
+  font-family: 'Fira Code', monospace;
+}
+
+#vids{
+  font-family: 'Fira Code', monospace;
+}
+
+#videos{
+  margin-top: 45px;
+  padding-left: 100px;
+}
+
+#full-picture{
+  display: flex;
+}
+
+#full-picture img{
+  margin-left: 4em;
+  height: 250px;
+  width: 250px;
+  padding: 2.5px;
+}
+
+.sub-titles3{
+  font-family: 'Fira Code', monospace;
+
+}
+
+#books{
+  font-family: 'Fira Code', monospace;
+  display:inline-flex;
+  text-align: center;
+}
+
+#contact-form{
+  border-radius: 15px;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: 'Fira Code', monospace;
+}
+
+#bibliographie{
+  display:grid;
+}
+
+#bibliographie table{
+  margin: 15px;
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+table,
+td {
+  border: 1px solid #333;
+}
+
+thead,
+tfoot {
+  background-color: #333;
+  color: #fff;
+}
